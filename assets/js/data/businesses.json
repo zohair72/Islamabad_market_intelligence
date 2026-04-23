@@ -1,0 +1,2626 @@
+[
+    {
+        "id": "bus-001",
+        "name": "Savour Foods",
+        "sectorId": "f-7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 800
+    },
+    {
+        "id": "bus-002",
+        "name": "Khaadi",
+        "sectorId": "f-7",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 600
+    },
+    {
+        "id": "bus-003",
+        "name": "Subway",
+        "sectorId": "f-7",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-004",
+        "name": "Ginyaki",
+        "sectorId": "f-7",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 550
+    },
+    {
+        "id": "bus-005",
+        "name": "Hardees",
+        "sectorId": "f-7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 700
+    },
+    {
+        "id": "bus-006",
+        "name": "Outfitters",
+        "sectorId": "f-7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-007",
+        "name": "Sapphire",
+        "sectorId": "f-7",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-008",
+        "name": "Junaid Jamshed",
+        "sectorId": "f-7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-009",
+        "name": "Jalal Sons",
+        "sectorId": "f-7",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-010",
+        "name": "Ideas",
+        "sectorId": "f-7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-011",
+        "name": "Hakim's",
+        "sectorId": "f-7",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 350
+    },
+    {
+        "id": "bus-012",
+        "name": "Dr. Essa Lab",
+        "sectorId": "f-7",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-013",
+        "name": "Chughtai Lab",
+        "sectorId": "f-7",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-014",
+        "name": "Toni & Guy",
+        "sectorId": "f-7",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 280
+    },
+    {
+        "id": "bus-015",
+        "name": "Nabila Salon",
+        "sectorId": "f-7",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 300
+    },
+    {
+        "id": "bus-016",
+        "name": "Gym One",
+        "sectorId": "f-7",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 180
+    },
+    {
+        "id": "bus-017",
+        "name": "iRepair",
+        "sectorId": "f-7",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 220
+    },
+    {
+        "id": "bus-018",
+        "name": "Computer Zone",
+        "sectorId": "f-7",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 250
+    },
+    {
+        "id": "bus-019",
+        "name": "Pizza Hut",
+        "sectorId": "f-6",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 650
+    },
+    {
+        "id": "bus-020",
+        "name": "KFC",
+        "sectorId": "f-6",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 750
+    },
+    {
+        "id": "bus-021",
+        "name": "McDonald's",
+        "sectorId": "f-6",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 850
+    },
+    {
+        "id": "bus-022",
+        "name": "Nando's",
+        "sectorId": "f-6",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-023",
+        "name": "Monal",
+        "sectorId": "f-6",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 500
+    },
+    {
+        "id": "bus-024",
+        "name": "Cafe Aylanto",
+        "sectorId": "f-6",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 450
+    },
+    {
+        "id": "bus-025",
+        "name": "Levi's",
+        "sectorId": "f-6",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 520
+    },
+    {
+        "id": "bus-026",
+        "name": "Nike Store",
+        "sectorId": "f-6",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 580
+    },
+    {
+        "id": "bus-027",
+        "name": "Adidas",
+        "sectorId": "f-6",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 560
+    },
+    {
+        "id": "bus-028",
+        "name": "Breakout",
+        "sectorId": "f-6",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-029",
+        "name": "Bonanza Satrangi",
+        "sectorId": "f-6",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-030",
+        "name": "Agha Khan Hospital",
+        "sectorId": "f-6",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 600
+    },
+    {
+        "id": "bus-031",
+        "name": "Shifa International",
+        "sectorId": "f-6",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-032",
+        "name": "Skin Expert",
+        "sectorId": "f-6",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 320
+    },
+    {
+        "id": "bus-033",
+        "name": "Depilex",
+        "sectorId": "f-6",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 350
+    },
+    {
+        "id": "bus-034",
+        "name": "Gold's Gym",
+        "sectorId": "f-6",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 250
+    },
+    {
+        "id": "bus-035",
+        "name": "Apple Store",
+        "sectorId": "f-6",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 400
+    },
+    {
+        "id": "bus-036",
+        "name": "Samsung Plaza",
+        "sectorId": "f-6",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 420
+    },
+    {
+        "id": "bus-037",
+        "name": "Howdy",
+        "sectorId": "f-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-038",
+        "name": "Street 1 Cafe",
+        "sectorId": "f-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-039",
+        "name": "Chaaye Khana",
+        "sectorId": "f-8",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 600
+    },
+    {
+        "id": "bus-040",
+        "name": "Burning Brownie",
+        "sectorId": "f-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-041",
+        "name": "Pie in the Sky",
+        "sectorId": "f-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-042",
+        "name": "Crossroads",
+        "sectorId": "f-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-043",
+        "name": "Ego",
+        "sectorId": "f-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-044",
+        "name": "Nishat Linen",
+        "sectorId": "f-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-045",
+        "name": "Gul Ahmed",
+        "sectorId": "f-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-046",
+        "name": "Al-Shifa Eye Trust",
+        "sectorId": "f-8",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 500
+    },
+    {
+        "id": "bus-047",
+        "name": "IDC Clinic",
+        "sectorId": "f-8",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-048",
+        "name": "Sabs Salon",
+        "sectorId": "f-8",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 280
+    },
+    {
+        "id": "bus-049",
+        "name": "Fitness First",
+        "sectorId": "f-8",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 200
+    },
+    {
+        "id": "bus-050",
+        "name": "Huawei Store",
+        "sectorId": "f-8",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 350
+    },
+    {
+        "id": "bus-051",
+        "name": "Oppo Center",
+        "sectorId": "f-8",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 320
+    },
+    {
+        "id": "bus-052",
+        "name": "Tuscany Courtyard",
+        "sectorId": "f-10",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 480
+    },
+    {
+        "id": "bus-053",
+        "name": "Des Pardes",
+        "sectorId": "f-10",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-054",
+        "name": "Khiva",
+        "sectorId": "f-10",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-055",
+        "name": "Jade Cafe",
+        "sectorId": "f-10",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-056",
+        "name": "Chen One",
+        "sectorId": "f-10",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-057",
+        "name": "Alkaram Studio",
+        "sectorId": "f-10",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-058",
+        "name": "Leisure Club",
+        "sectorId": "f-10",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-059",
+        "name": "Shaukat Khanum",
+        "sectorId": "f-10",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 700
+    },
+    {
+        "id": "bus-060",
+        "name": "PIMS Hospital",
+        "sectorId": "f-10",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 800
+    },
+    {
+        "id": "bus-061",
+        "name": "Looks Salon",
+        "sectorId": "f-10",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 250
+    },
+    {
+        "id": "bus-062",
+        "name": "Shapes Gym",
+        "sectorId": "f-10",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 220
+    },
+    {
+        "id": "bus-063",
+        "name": "Vivo Store",
+        "sectorId": "f-10",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 300
+    },
+    {
+        "id": "bus-064",
+        "name": "Biryani House",
+        "sectorId": "f-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 400
+    },
+    {
+        "id": "bus-065",
+        "name": "Bundoo Khan",
+        "sectorId": "f-11",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-066",
+        "name": "Al-Nakhal",
+        "sectorId": "f-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-067",
+        "name": "Imtiaz Super Market",
+        "sectorId": "f-11",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-068",
+        "name": "Al-Fatah",
+        "sectorId": "f-11",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-069",
+        "name": "Polyclinic",
+        "sectorId": "f-11",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 650
+    },
+    {
+        "id": "bus-070",
+        "name": "Glow Salon",
+        "sectorId": "f-11",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 200
+    },
+    {
+        "id": "bus-071",
+        "name": "Mobile Mart",
+        "sectorId": "f-11",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 280
+    },
+    {
+        "id": "bus-072",
+        "name": "Cosa Nostra",
+        "sectorId": "g-6",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 420
+    },
+    {
+        "id": "bus-073",
+        "name": "Mews Cafe",
+        "sectorId": "g-6",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-074",
+        "name": "Dunkin Donuts",
+        "sectorId": "g-6",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-075",
+        "name": "Cinnabon",
+        "sectorId": "g-6",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 350
+    },
+    {
+        "id": "bus-076",
+        "name": "Zara",
+        "sectorId": "g-6",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-077",
+        "name": "H&M",
+        "sectorId": "g-6",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-078",
+        "name": "Miniso",
+        "sectorId": "g-6",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 500
+    },
+    {
+        "id": "bus-079",
+        "name": "Maroof International",
+        "sectorId": "g-6",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-080",
+        "name": "Rehman Medical",
+        "sectorId": "g-6",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-081",
+        "name": "Tarz Salon",
+        "sectorId": "g-6",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 260
+    },
+    {
+        "id": "bus-082",
+        "name": "Powerhouse Gym",
+        "sectorId": "g-6",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 200
+    },
+    {
+        "id": "bus-083",
+        "name": "Xiaomi Store",
+        "sectorId": "g-6",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 320
+    },
+    {
+        "id": "bus-084",
+        "name": "Tehzeeb Bakers",
+        "sectorId": "g-7",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 500
+    },
+    {
+        "id": "bus-085",
+        "name": "Jalal Kabab House",
+        "sectorId": "g-7",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-086",
+        "name": "Cheezious",
+        "sectorId": "g-7",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-087",
+        "name": "Lal Qila",
+        "sectorId": "g-7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-088",
+        "name": "Bareeze",
+        "sectorId": "g-7",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 420
+    },
+    {
+        "id": "bus-089",
+        "name": "Maria B",
+        "sectorId": "g-7",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 450
+    },
+    {
+        "id": "bus-090",
+        "name": "Sana Safinaz",
+        "sectorId": "g-7",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 480
+    },
+    {
+        "id": "bus-091",
+        "name": "Fauji Foundation",
+        "sectorId": "g-7",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-092",
+        "name": "Skin Care Clinic",
+        "sectorId": "g-7",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 240
+    },
+    {
+        "id": "bus-093",
+        "name": "Body Fuel",
+        "sectorId": "g-7",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 180
+    },
+    {
+        "id": "bus-094",
+        "name": "Realme Store",
+        "sectorId": "g-7",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 300
+    },
+    {
+        "id": "bus-095",
+        "name": "Usmania",
+        "sectorId": "g-8",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 600
+    },
+    {
+        "id": "bus-096",
+        "name": "Kabul Restaurant",
+        "sectorId": "g-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-097",
+        "name": "Café de Khan",
+        "sectorId": "g-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-098",
+        "name": "Metro Shoes",
+        "sectorId": "g-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-099",
+        "name": "Bata",
+        "sectorId": "g-8",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 520
+    },
+    {
+        "id": "bus-100",
+        "name": "Service",
+        "sectorId": "g-8",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 480
+    },
+    {
+        "id": "bus-101",
+        "name": "Shifa Clinic",
+        "sectorId": "g-8",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-102",
+        "name": "Anum Classic",
+        "sectorId": "g-8",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 220
+    },
+    {
+        "id": "bus-103",
+        "name": "Infiniti Mall",
+        "sectorId": "g-9",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 700
+    },
+    {
+        "id": "bus-104",
+        "name": "Gloria Jeans",
+        "sectorId": "g-9",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-105",
+        "name": "Espresso",
+        "sectorId": "g-9",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-106",
+        "name": "J. Junaid Jamshed",
+        "sectorId": "g-9",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-107",
+        "name": "Kayseria",
+        "sectorId": "g-9",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-108",
+        "name": "Liaquat National",
+        "sectorId": "g-9",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-109",
+        "name": "Depilex Beauty",
+        "sectorId": "g-9",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 280
+    },
+    {
+        "id": "bus-110",
+        "name": "Anytime Fitness",
+        "sectorId": "g-9",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 220
+    },
+    {
+        "id": "bus-111",
+        "name": "Infinix Store",
+        "sectorId": "g-9",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 280
+    },
+    {
+        "id": "bus-112",
+        "name": "Rahat Bakers",
+        "sectorId": "g-10",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 480
+    },
+    {
+        "id": "bus-113",
+        "name": "Dilpasand",
+        "sectorId": "g-10",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 520
+    },
+    {
+        "id": "bus-114",
+        "name": "Shangrila",
+        "sectorId": "g-10",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-115",
+        "name": "Utility Stores",
+        "sectorId": "g-10",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 650
+    },
+    {
+        "id": "bus-116",
+        "name": "Chase Up",
+        "sectorId": "g-10",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-117",
+        "name": "Medicare Clinic",
+        "sectorId": "g-10",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-118",
+        "name": "Beauty Lounge",
+        "sectorId": "g-10",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 240
+    },
+    {
+        "id": "bus-119",
+        "name": "Gym & Tone",
+        "sectorId": "g-10",
+        "category": "Gym",
+        "priceRange": "Budget",
+        "footfall": 160
+    },
+    {
+        "id": "bus-120",
+        "name": "Mobile House",
+        "sectorId": "g-10",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 300
+    },
+    {
+        "id": "bus-121",
+        "name": "Karachi Broast",
+        "sectorId": "g-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 420
+    },
+    {
+        "id": "bus-122",
+        "name": "Lahori Tikka",
+        "sectorId": "g-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-123",
+        "name": "Metro Cash & Carry",
+        "sectorId": "g-11",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 800
+    },
+    {
+        "id": "bus-124",
+        "name": "Carrefour",
+        "sectorId": "g-11",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 750
+    },
+    {
+        "id": "bus-125",
+        "name": "Family Clinic",
+        "sectorId": "g-11",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 400
+    },
+    {
+        "id": "bus-126",
+        "name": "Style Studio",
+        "sectorId": "g-11",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 200
+    },
+    {
+        "id": "bus-127",
+        "name": "Fit Zone",
+        "sectorId": "g-11",
+        "category": "Gym",
+        "priceRange": "Budget",
+        "footfall": 150
+    },
+    {
+        "id": "bus-128",
+        "name": "Desi Dhaba",
+        "sectorId": "g-13",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 350
+    },
+    {
+        "id": "bus-129",
+        "name": "Tandoor",
+        "sectorId": "g-13",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-130",
+        "name": "Green Valley",
+        "sectorId": "g-13",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-131",
+        "name": "Health Plus",
+        "sectorId": "g-13",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-132",
+        "name": "Gents Salon",
+        "sectorId": "g-13",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 180
+    },
+    {
+        "id": "bus-133",
+        "name": "Markhor",
+        "sectorId": "i-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-134",
+        "name": "Khoka Khola",
+        "sectorId": "i-8",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-135",
+        "name": "Domino's Pizza",
+        "sectorId": "i-8",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-136",
+        "name": "Hyperstar",
+        "sectorId": "i-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 900
+    },
+    {
+        "id": "bus-137",
+        "name": "Limelight",
+        "sectorId": "i-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-138",
+        "name": "Ethnic",
+        "sectorId": "i-8",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-139",
+        "name": "Islamabad Diagnostic",
+        "sectorId": "i-8",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-140",
+        "name": "Chughtai Lab",
+        "sectorId": "i-8",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-141",
+        "name": "Nabila's",
+        "sectorId": "i-8",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 300
+    },
+    {
+        "id": "bus-142",
+        "name": "Muscle Factory",
+        "sectorId": "i-8",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 200
+    },
+    {
+        "id": "bus-143",
+        "name": "Tecno Store",
+        "sectorId": "i-8",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 320
+    },
+    {
+        "id": "bus-144",
+        "name": "Itel Shop",
+        "sectorId": "i-8",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 280
+    },
+    {
+        "id": "bus-145",
+        "name": "Zamzama",
+        "sectorId": "i-9",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 400
+    },
+    {
+        "id": "bus-146",
+        "name": "Desi Spice",
+        "sectorId": "i-9",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-147",
+        "name": "Al-Rehman",
+        "sectorId": "i-9",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 500
+    },
+    {
+        "id": "bus-148",
+        "name": "Madina Cash & Carry",
+        "sectorId": "i-9",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 650
+    },
+    {
+        "id": "bus-149",
+        "name": "City Hospital",
+        "sectorId": "i-9",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-150",
+        "name": "Ladies Salon",
+        "sectorId": "i-9",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 220
+    },
+    {
+        "id": "bus-151",
+        "name": "Iron Gym",
+        "sectorId": "i-9",
+        "category": "Gym",
+        "priceRange": "Budget",
+        "footfall": 140
+    },
+    {
+        "id": "bus-152",
+        "name": "Café One",
+        "sectorId": "i-10",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-153",
+        "name": "BBQ Tonight",
+        "sectorId": "i-10",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-154",
+        "name": "Naheed Super Market",
+        "sectorId": "i-10",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-155",
+        "name": "Agha's",
+        "sectorId": "i-10",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-156",
+        "name": "Medi Life",
+        "sectorId": "i-10",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-157",
+        "name": "Dr. Ziauddin",
+        "sectorId": "i-10",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-158",
+        "name": "Glam Studio",
+        "sectorId": "i-10",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 260
+    },
+    {
+        "id": "bus-159",
+        "name": "CrossFit Arena",
+        "sectorId": "i-10",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 180
+    },
+    {
+        "id": "bus-160",
+        "name": "OnePlus Store",
+        "sectorId": "i-10",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 300
+    },
+    {
+        "id": "bus-161",
+        "name": "Village Restaurant",
+        "sectorId": "i-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 350
+    },
+    {
+        "id": "bus-162",
+        "name": "Desi Food",
+        "sectorId": "i-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 320
+    },
+    {
+        "id": "bus-163",
+        "name": "Everyday Store",
+        "sectorId": "i-11",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 480
+    },
+    {
+        "id": "bus-164",
+        "name": "General Store",
+        "sectorId": "i-11",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-165",
+        "name": "Clinic Plus",
+        "sectorId": "i-11",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-166",
+        "name": "Hair Studio",
+        "sectorId": "i-11",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 180
+    },
+    {
+        "id": "bus-167",
+        "name": "Fitness Hub",
+        "sectorId": "i-11",
+        "category": "Gym",
+        "priceRange": "Budget",
+        "footfall": 120
+    },
+    {
+        "id": "bus-168",
+        "name": "Zaiqa",
+        "sectorId": "i-14",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 300
+    },
+    {
+        "id": "bus-169",
+        "name": "Spice Garden",
+        "sectorId": "i-14",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 280
+    },
+    {
+        "id": "bus-170",
+        "name": "Daily Needs",
+        "sectorId": "i-14",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 420
+    },
+    {
+        "id": "bus-171",
+        "name": "Health Care",
+        "sectorId": "i-14",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 350
+    },
+    {
+        "id": "bus-172",
+        "name": "Barber Shop",
+        "sectorId": "i-14",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 160
+    },
+    {
+        "id": "bus-173",
+        "name": "Khyber Shinwari",
+        "sectorId": "e-7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-174",
+        "name": "Café Lazeez",
+        "sectorId": "e-7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-175",
+        "name": "Baskin Robbins",
+        "sectorId": "e-7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-176",
+        "name": "Edenrobe",
+        "sectorId": "e-7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-177",
+        "name": "Cambridge",
+        "sectorId": "e-7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-178",
+        "name": "Shalamar Hospital",
+        "sectorId": "e-7",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-179",
+        "name": "Orchid Beauty",
+        "sectorId": "e-7",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 240
+    },
+    {
+        "id": "bus-180",
+        "name": "Flex Gym",
+        "sectorId": "e-7",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 170
+    },
+    {
+        "id": "bus-181",
+        "name": "Nokia Center",
+        "sectorId": "e-7",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 280
+    },
+    {
+        "id": "bus-182",
+        "name": "Tandoori Nights",
+        "sectorId": "e-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 380
+    },
+    {
+        "id": "bus-183",
+        "name": "Curry House",
+        "sectorId": "e-11",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 350
+    },
+    {
+        "id": "bus-184",
+        "name": "Mega Mart",
+        "sectorId": "e-11",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-185",
+        "name": "Wellness Clinic",
+        "sectorId": "e-11",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 400
+    },
+    {
+        "id": "bus-186",
+        "name": "Beauty Parlor",
+        "sectorId": "e-11",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 200
+    },
+    {
+        "id": "bus-187",
+        "name": "Gym Pro",
+        "sectorId": "e-11",
+        "category": "Gym",
+        "priceRange": "Budget",
+        "footfall": 140
+    },
+    {
+        "id": "bus-188",
+        "name": "Fujiyama",
+        "sectorId": "blue-area",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-189",
+        "name": "Nando's",
+        "sectorId": "blue-area",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-190",
+        "name": "Arcadian Cafe",
+        "sectorId": "blue-area",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 600
+    },
+    {
+        "id": "bus-191",
+        "name": "Jade Garden",
+        "sectorId": "blue-area",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 580
+    },
+    {
+        "id": "bus-192",
+        "name": "Dynasty",
+        "sectorId": "blue-area",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-193",
+        "name": "Polo Lounge",
+        "sectorId": "blue-area",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 550
+    },
+    {
+        "id": "bus-194",
+        "name": "Gucci",
+        "sectorId": "blue-area",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 400
+    },
+    {
+        "id": "bus-195",
+        "name": "Louis Vuitton",
+        "sectorId": "blue-area",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 380
+    },
+    {
+        "id": "bus-196",
+        "name": "Rolex",
+        "sectorId": "blue-area",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 350
+    },
+    {
+        "id": "bus-197",
+        "name": "Harley Street",
+        "sectorId": "blue-area",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 500
+    },
+    {
+        "id": "bus-198",
+        "name": "Cosmetic Surgery",
+        "sectorId": "blue-area",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 320
+    },
+    {
+        "id": "bus-199",
+        "name": "Elite Salon",
+        "sectorId": "blue-area",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 350
+    },
+    {
+        "id": "bus-200",
+        "name": "Platinum Gym",
+        "sectorId": "blue-area",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 280
+    },
+    {
+        "id": "bus-201",
+        "name": "Apple Premium",
+        "sectorId": "blue-area",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 500
+    },
+    {
+        "id": "bus-202",
+        "name": "Sony Center",
+        "sectorId": "blue-area",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 450
+    },
+    {
+        "id": "bus-203",
+        "name": "Sakura",
+        "sectorId": "jinnah-super",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 580
+    },
+    {
+        "id": "bus-204",
+        "name": "Kabana",
+        "sectorId": "jinnah-super",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-205",
+        "name": "Café Barbera",
+        "sectorId": "jinnah-super",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-206",
+        "name": "Subway",
+        "sectorId": "jinnah-super",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 600
+    },
+    {
+        "id": "bus-207",
+        "name": "Dunkin",
+        "sectorId": "jinnah-super",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-208",
+        "name": "Starbucks",
+        "sectorId": "jinnah-super",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-209",
+        "name": "Gul Ahmed Ideas",
+        "sectorId": "jinnah-super",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-210",
+        "name": "Generation",
+        "sectorId": "jinnah-super",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-211",
+        "name": "Ethnic by Outfitters",
+        "sectorId": "jinnah-super",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-212",
+        "name": "Khaadi Khaas",
+        "sectorId": "jinnah-super",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-213",
+        "name": "Shifa Diagnostics",
+        "sectorId": "jinnah-super",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-214",
+        "name": "Essa Laboratory",
+        "sectorId": "jinnah-super",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-215",
+        "name": "Toni & Guy",
+        "sectorId": "jinnah-super",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 320
+    },
+    {
+        "id": "bus-216",
+        "name": "Gym & Spa",
+        "sectorId": "jinnah-super",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 250
+    },
+    {
+        "id": "bus-217",
+        "name": "Samsung Experience",
+        "sectorId": "jinnah-super",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 480
+    },
+    {
+        "id": "bus-218",
+        "name": "LG Store",
+        "sectorId": "jinnah-super",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 420
+    },
+    {
+        "id": "bus-219",
+        "name": "Monal Islamabad",
+        "sectorId": "aabpara",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-220",
+        "name": "Khiva Restaurant",
+        "sectorId": "aabpara",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-221",
+        "name": "Kabul Restaurant",
+        "sectorId": "aabpara",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-222",
+        "name": "Tehzeeb",
+        "sectorId": "aabpara",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 600
+    },
+    {
+        "id": "bus-223",
+        "name": "Nishat",
+        "sectorId": "aabpara",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-224",
+        "name": "Sapphire Retail",
+        "sectorId": "aabpara",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 550
+    },
+    {
+        "id": "bus-225",
+        "name": "Alkaram",
+        "sectorId": "aabpara",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-226",
+        "name": "Chughtai Lab",
+        "sectorId": "aabpara",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-227",
+        "name": "Skin Specialist",
+        "sectorId": "aabpara",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 280
+    },
+    {
+        "id": "bus-228",
+        "name": "Body Gym",
+        "sectorId": "aabpara",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 200
+    },
+    {
+        "id": "bus-229",
+        "name": "Mobile Plaza",
+        "sectorId": "aabpara",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 450
+    },
+    {
+        "id": "bus-230",
+        "name": "Hafeez Center",
+        "sectorId": "saddar",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 900
+    },
+    {
+        "id": "bus-231",
+        "name": "Jinnah Market",
+        "sectorId": "saddar",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 850
+    },
+    {
+        "id": "bus-232",
+        "name": "Melody Food",
+        "sectorId": "saddar",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 650
+    },
+    {
+        "id": "bus-233",
+        "name": "Student Biryani",
+        "sectorId": "saddar",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 700
+    },
+    {
+        "id": "bus-234",
+        "name": "Karachi Halwa",
+        "sectorId": "saddar",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 600
+    },
+    {
+        "id": "bus-235",
+        "name": "Cloth Market",
+        "sectorId": "saddar",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 800
+    },
+    {
+        "id": "bus-236",
+        "name": "Shoe Plaza",
+        "sectorId": "saddar",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 750
+    },
+    {
+        "id": "bus-237",
+        "name": "Saddar Clinic",
+        "sectorId": "saddar",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-238",
+        "name": "Gents Parlor",
+        "sectorId": "saddar",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 300
+    },
+    {
+        "id": "bus-239",
+        "name": "Electronics Hub",
+        "sectorId": "saddar",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 700
+    },
+    {
+        "id": "bus-240",
+        "name": "Mobile World",
+        "sectorId": "saddar",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 650
+    },
+    {
+        "id": "bus-241",
+        "name": "Karachi Sweets",
+        "sectorId": "karachi-company",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 580
+    },
+    {
+        "id": "bus-242",
+        "name": "Desi Restaurant",
+        "sectorId": "karachi-company",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 520
+    },
+    {
+        "id": "bus-243",
+        "name": "Wholesale Market",
+        "sectorId": "karachi-company",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 750
+    },
+    {
+        "id": "bus-244",
+        "name": "Karachi Cloth",
+        "sectorId": "karachi-company",
+        "category": "Retail",
+        "priceRange": "Budget",
+        "footfall": 680
+    },
+    {
+        "id": "bus-245",
+        "name": "Medical Store",
+        "sectorId": "karachi-company",
+        "category": "Medical",
+        "priceRange": "Budget",
+        "footfall": 450
+    },
+    {
+        "id": "bus-246",
+        "name": "Barber Shop",
+        "sectorId": "karachi-company",
+        "category": "Salon",
+        "priceRange": "Budget",
+        "footfall": 250
+    },
+    {
+        "id": "bus-247",
+        "name": "Tech Bazaar",
+        "sectorId": "karachi-company",
+        "category": "Tech",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-248",
+        "name": "Tuscany",
+        "sectorId": "bahria-phase4",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-249",
+        "name": "Howdy",
+        "sectorId": "bahria-phase4",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-250",
+        "name": "Pizza Max",
+        "sectorId": "bahria-phase4",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-251",
+        "name": "KFC Bahria",
+        "sectorId": "bahria-phase4",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 700
+    },
+    {
+        "id": "bus-252",
+        "name": "McDonald's",
+        "sectorId": "bahria-phase4",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 750
+    },
+    {
+        "id": "bus-253",
+        "name": "Hardees",
+        "sectorId": "bahria-phase4",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 680
+    },
+    {
+        "id": "bus-254",
+        "name": "Khaadi",
+        "sectorId": "bahria-phase4",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-255",
+        "name": "Outfitters",
+        "sectorId": "bahria-phase4",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-256",
+        "name": "Sapphire",
+        "sectorId": "bahria-phase4",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 600
+    },
+    {
+        "id": "bus-257",
+        "name": "Junaid Jamshed",
+        "sectorId": "bahria-phase4",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 550
+    },
+    {
+        "id": "bus-258",
+        "name": "Levi's",
+        "sectorId": "bahria-phase4",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 520
+    },
+    {
+        "id": "bus-259",
+        "name": "Adidas",
+        "sectorId": "bahria-phase4",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 540
+    },
+    {
+        "id": "bus-260",
+        "name": "Bahria Hospital",
+        "sectorId": "bahria-phase4",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-261",
+        "name": "Chughtai Lab",
+        "sectorId": "bahria-phase4",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 500
+    },
+    {
+        "id": "bus-262",
+        "name": "Essa Lab",
+        "sectorId": "bahria-phase4",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-263",
+        "name": "Depilex",
+        "sectorId": "bahria-phase4",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 350
+    },
+    {
+        "id": "bus-264",
+        "name": "Nabila",
+        "sectorId": "bahria-phase4",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 380
+    },
+    {
+        "id": "bus-265",
+        "name": "Gold's Gym",
+        "sectorId": "bahria-phase4",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 280
+    },
+    {
+        "id": "bus-266",
+        "name": "Shapes",
+        "sectorId": "bahria-phase4",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 250
+    },
+    {
+        "id": "bus-267",
+        "name": "Apple Store",
+        "sectorId": "bahria-phase4",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 450
+    },
+    {
+        "id": "bus-268",
+        "name": "Samsung Plaza",
+        "sectorId": "bahria-phase4",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 480
+    },
+    {
+        "id": "bus-269",
+        "name": "Huawei",
+        "sectorId": "bahria-phase4",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 400
+    },
+    {
+        "id": "bus-270",
+        "name": "Oppo Store",
+        "sectorId": "bahria-phase4",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-271",
+        "name": "Nando's",
+        "sectorId": "bahria-phase7",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-272",
+        "name": "Subway",
+        "sectorId": "bahria-phase7",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 550
+    },
+    {
+        "id": "bus-273",
+        "name": "Domino's",
+        "sectorId": "bahria-phase7",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-274",
+        "name": "Chaaye Khana",
+        "sectorId": "bahria-phase7",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 500
+    },
+    {
+        "id": "bus-275",
+        "name": "Chen One",
+        "sectorId": "bahria-phase7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-276",
+        "name": "Nishat Linen",
+        "sectorId": "bahria-phase7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-277",
+        "name": "Alkaram Studio",
+        "sectorId": "bahria-phase7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 560
+    },
+    {
+        "id": "bus-278",
+        "name": "Gul Ahmed",
+        "sectorId": "bahria-phase7",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 540
+    },
+    {
+        "id": "bus-279",
+        "name": "Shifa Clinic",
+        "sectorId": "bahria-phase7",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-280",
+        "name": "IDC",
+        "sectorId": "bahria-phase7",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 480
+    },
+    {
+        "id": "bus-281",
+        "name": "Looks Salon",
+        "sectorId": "bahria-phase7",
+        "category": "Salon",
+        "priceRange": "Mid",
+        "footfall": 280
+    },
+    {
+        "id": "bus-282",
+        "name": "Fitness First",
+        "sectorId": "bahria-phase7",
+        "category": "Gym",
+        "priceRange": "Mid",
+        "footfall": 220
+    },
+    {
+        "id": "bus-283",
+        "name": "Vivo Store",
+        "sectorId": "bahria-phase7",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 350
+    },
+    {
+        "id": "bus-284",
+        "name": "Xiaomi",
+        "sectorId": "bahria-phase7",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 380
+    },
+    {
+        "id": "bus-285",
+        "name": "The Monal",
+        "sectorId": "dha-phase1",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-286",
+        "name": "Café Aylanto",
+        "sectorId": "dha-phase1",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-287",
+        "name": "Ginyaki",
+        "sectorId": "dha-phase1",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 600
+    },
+    {
+        "id": "bus-288",
+        "name": "Zara",
+        "sectorId": "dha-phase1",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 680
+    },
+    {
+        "id": "bus-289",
+        "name": "H&M",
+        "sectorId": "dha-phase1",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 650
+    },
+    {
+        "id": "bus-290",
+        "name": "Nike",
+        "sectorId": "dha-phase1",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-291",
+        "name": "Shifa Hospital",
+        "sectorId": "dha-phase1",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-292",
+        "name": "Agha Khan",
+        "sectorId": "dha-phase1",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 680
+    },
+    {
+        "id": "bus-293",
+        "name": "Toni & Guy",
+        "sectorId": "dha-phase1",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 380
+    },
+    {
+        "id": "bus-294",
+        "name": "Anytime Fitness",
+        "sectorId": "dha-phase1",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 300
+    },
+    {
+        "id": "bus-295",
+        "name": "Apple Premium",
+        "sectorId": "dha-phase1",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 520
+    },
+    {
+        "id": "bus-296",
+        "name": "Cosa Nostra",
+        "sectorId": "dha-phase2",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 580
+    },
+    {
+        "id": "bus-297",
+        "name": "Jade Cafe",
+        "sectorId": "dha-phase2",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 520
+    },
+    {
+        "id": "bus-298",
+        "name": "Sapphire",
+        "sectorId": "dha-phase2",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 600
+    },
+    {
+        "id": "bus-299",
+        "name": "Khaadi",
+        "sectorId": "dha-phase2",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 580
+    },
+    {
+        "id": "bus-300",
+        "name": "Maroof Hospital",
+        "sectorId": "dha-phase2",
+        "category": "Medical",
+        "priceRange": "Premium",
+        "footfall": 620
+    },
+    {
+        "id": "bus-301",
+        "name": "Nabila Salon",
+        "sectorId": "dha-phase2",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 350
+    },
+    {
+        "id": "bus-302",
+        "name": "Shapes Gym",
+        "sectorId": "dha-phase2",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 280
+    },
+    {
+        "id": "bus-303",
+        "name": "Samsung Store",
+        "sectorId": "dha-phase2",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 480
+    },
+    {
+        "id": "bus-304",
+        "name": "Fujiyama",
+        "sectorId": "centaurus",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 750
+    },
+    {
+        "id": "bus-305",
+        "name": "Nando's",
+        "sectorId": "centaurus",
+        "category": "Restaurant",
+        "priceRange": "Premium",
+        "footfall": 800
+    },
+    {
+        "id": "bus-306",
+        "name": "Gloria Jeans",
+        "sectorId": "centaurus",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 700
+    },
+    {
+        "id": "bus-307",
+        "name": "Hardees",
+        "sectorId": "centaurus",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 750
+    },
+    {
+        "id": "bus-308",
+        "name": "KFC",
+        "sectorId": "centaurus",
+        "category": "Restaurant",
+        "priceRange": "Mid",
+        "footfall": 800
+    },
+    {
+        "id": "bus-309",
+        "name": "Subway",
+        "sectorId": "centaurus",
+        "category": "Restaurant",
+        "priceRange": "Budget",
+        "footfall": 650
+    },
+    {
+        "id": "bus-310",
+        "name": "Zara",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 900
+    },
+    {
+        "id": "bus-311",
+        "name": "H&M",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 850
+    },
+    {
+        "id": "bus-312",
+        "name": "Mango",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 800
+    },
+    {
+        "id": "bus-313",
+        "name": "Khaadi",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 820
+    },
+    {
+        "id": "bus-314",
+        "name": "Sapphire",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 780
+    },
+    {
+        "id": "bus-315",
+        "name": "Outfitters",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Mid",
+        "footfall": 750
+    },
+    {
+        "id": "bus-316",
+        "name": "Levi's",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-317",
+        "name": "Nike",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 720
+    },
+    {
+        "id": "bus-318",
+        "name": "Adidas",
+        "sectorId": "centaurus",
+        "category": "Retail",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-319",
+        "name": "Chughtai Lab",
+        "sectorId": "centaurus",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-320",
+        "name": "Essa Lab",
+        "sectorId": "centaurus",
+        "category": "Medical",
+        "priceRange": "Mid",
+        "footfall": 580
+    },
+    {
+        "id": "bus-321",
+        "name": "Toni & Guy",
+        "sectorId": "centaurus",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 450
+    },
+    {
+        "id": "bus-322",
+        "name": "Depilex",
+        "sectorId": "centaurus",
+        "category": "Salon",
+        "priceRange": "Premium",
+        "footfall": 480
+    },
+    {
+        "id": "bus-323",
+        "name": "Gold's Gym",
+        "sectorId": "centaurus",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 350
+    },
+    {
+        "id": "bus-324",
+        "name": "Anytime Fitness",
+        "sectorId": "centaurus",
+        "category": "Gym",
+        "priceRange": "Premium",
+        "footfall": 380
+    },
+    {
+        "id": "bus-325",
+        "name": "Apple Store",
+        "sectorId": "centaurus",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 700
+    },
+    {
+        "id": "bus-326",
+        "name": "Samsung",
+        "sectorId": "centaurus",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 680
+    },
+    {
+        "id": "bus-327",
+        "name": "Huawei",
+        "sectorId": "centaurus",
+        "category": "Tech",
+        "priceRange": "Mid",
+        "footfall": 600
+    },
+    {
+        "id": "bus-328",
+        "name": "Sony Center",
+        "sectorId": "centaurus",
+        "category": "Tech",
+        "priceRange": "Premium",
+        "footfall": 550
+    }
+]

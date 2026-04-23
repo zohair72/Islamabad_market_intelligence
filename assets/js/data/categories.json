@@ -1,0 +1,44 @@
+[
+    {
+        "id": "restaurant",
+        "name": "Restaurant",
+        "icon": "utensils",
+        "color": "#ef4444",
+        "description": "Food & Dining establishments"
+    },
+    {
+        "id": "retail",
+        "name": "Retail",
+        "icon": "shopping-bag",
+        "color": "#3b82f6",
+        "description": "Shopping & Fashion stores"
+    },
+    {
+        "id": "tech",
+        "name": "Tech",
+        "icon": "laptop",
+        "color": "#8b5cf6",
+        "description": "Electronics & Technology"
+    },
+    {
+        "id": "medical",
+        "name": "Medical",
+        "icon": "heartbeat",
+        "color": "#10b981",
+        "description": "Healthcare & Medical services"
+    },
+    {
+        "id": "salon",
+        "name": "Salon",
+        "icon": "cut",
+        "color": "#f59e0b",
+        "description": "Beauty & Personal care"
+    },
+    {
+        "id": "gym",
+        "name": "Gym",
+        "icon": "dumbbell",
+        "color": "#ec4899",
+        "description": "Fitness & Wellness centers"
+    }
+]

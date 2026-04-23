@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Comprehensive market intelligence dashboard for Islamabad's business sectors, markets, and analytics with interactive maps and real-time data visualization">
+    <meta name="keywords" content="Islamabad, market intelligence, business analytics, sectors, dashboard">
+    <meta name="author" content="Market Intelligence Team">
+    <title>Islamabad Market Intelligence Dashboard</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1a73e8',
+                        secondary: '#34a853',
+                        accent: '#fbbc04',
+                        danger: '#ea4335',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Additional custom styles */
+        #map {
+            min-height: 500px;
+            height: 100%;
+            width: 100%;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar-transition {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-hidden {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: #0f172a;" class="font-sans antialiased">
+
+    <!-- Header/Navbar -->
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo and Title -->
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-chart-line text-3xl"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">Islamabad Market Intelligence</h1>
+                        <p class="text-sm text-blue-200">Real-time Business Analytics Dashboard</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#dashboard" class="hover:text-blue-200 transition duration-200">
+                        <i class="fas fa-home mr-2"></i>Dashboard
+                    </a>
+                    <a href="#markets" class="hover:text-blue-200 transition duration-200">
+                        <i class="fas fa-store mr-2"></i>Markets
+                    </a>
+                    <a href="#analytics" class="hover:text-blue-200 transition duration-200">
+                        <i class="fas fa-chart-bar mr-2"></i>Analytics
+                    </a>
+                    <a href="#reports" class="hover:text-blue-200 transition duration-200">
+                        <i class="fas fa-file-alt mr-2"></i>Reports
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#dashboard" class="block py-2 hover:bg-blue-700 px-4 rounded transition duration-200">
+                    <i class="fas fa-home mr-2"></i>Dashboard
+                </a>
+                <a href="#markets" class="block py-2 hover:bg-blue-700 px-4 rounded transition duration-200">
+                    <i class="fas fa-store mr-2"></i>Markets
+                </a>
+                <a href="#analytics" class="block py-2 hover:bg-blue-700 px-4 rounded transition duration-200">
+                    <i class="fas fa-chart-bar mr-2"></i>Analytics
+                </a>
+                <a href="#reports" class="block py-2 hover:bg-blue-700 px-4 rounded transition duration-200">
+                    <i class="fas fa-file-alt mr-2"></i>Reports
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container mx-auto px-4 py-6">
+        <div class="flex flex-col lg:flex-row gap-6">
+
+            <!-- Sidebar - Sector Selection -->
+            <aside id="sidebar" class="lg:w-80 sidebar-transition">
+                <div style="background-color: #1e293b; color: #f1f5f9;" class="rounded-lg shadow-lg p-6 sticky top-24">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-xl font-bold">
+                            <i class="fas fa-filter mr-2 text-blue-400"></i>Filters & Sectors
+                        </h2>
+                        <button id="sidebar-toggle" class="lg:hidden" style="color: #cbd5e1;">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+
+                    <!-- Market Filter -->
+                    <div class="mb-6">
+                        <label class="block text-sm font-semibold mb-2" style="color: #cbd5e1;">
+                            <i class="fas fa-map-marker-alt mr-2 text-red-400"></i>Select Market
+                        </label>
+                        <select id="market-filter"
+                            style="background-color: #334155; color: #f1f5f9; border-color: #475569;"
+                            class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200">
+                            <option value="all">All Markets</option>
+                            <option value="M001">Blue Area</option>
+                            <option value="M002">F-7 Markaz</option>
+                            <option value="M003">Jinnah Super Market</option>
+                        </select>
+                    </div>
+
+                    <!-- Sector Selection -->
+                    <div class="mb-6">
+                        <label class="block text-sm font-semibold mb-3" style="color: #cbd5e1;">
+                            <i class="fas fa-industry mr-2 text-green-400"></i>Business Sectors
+                        </label>
+                        <div class="space-y-2">
+                            <label style="background-color: #334155;"
+                                class="flex items-center p-3 rounded-lg hover:bg-opacity-80 cursor-pointer transition duration-200">
+                                <input type="checkbox" value="S001"
+                                    class="sector-checkbox mr-3 h-4 w-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500"
+                                    checked>
+                                <span class="text-sm" style="color: #f1f5f9;">Information Technology</span>
+                            </label>
+                            <label style="background-color: #334155;"
+                                class="flex items-center p-3 rounded-lg hover:bg-opacity-80 cursor-pointer transition duration-200">
+                                <input type="checkbox" value="S002"
+                                    class="sector-checkbox mr-3 h-4 w-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500"
+                                    checked>
+                                <span class="text-sm" style="color: #f1f5f9;">Retail & Fashion</span>
+                            </label>
+                            <label style="background-color: #334155;"
+                                class="flex items-center p-3 rounded-lg hover:bg-opacity-80 cursor-pointer transition duration-200">
+                                <input type="checkbox" value="S003"
+                                    class="sector-checkbox mr-3 h-4 w-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-500"
+                                    checked>
+                                <span class="text-sm" style="color: #f1f5f9;">Food & Beverage</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Quick Stats -->
+                    <div class="border-t pt-4" style="border-color: #475569;">
+                        <h3 class="text-sm font-semibold mb-3" style="color: #cbd5e1;">
+                            <i class="fas fa-info-circle mr-2 text-blue-400"></i>Quick Stats
+                        </h3>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between">
+                                <span style="color: #94a3b8;">Total Markets:</span>
+                                <span class="font-semibold" style="color: #f1f5f9;" id="total-markets">3</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span style="color: #94a3b8;">Active Sectors:</span>
+                                <span class="font-semibold" style="color: #f1f5f9;" id="total-sectors">3</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span style="color: #94a3b8;">Total Businesses:</span>
+                                <span class="font-semibold" style="color: #f1f5f9;" id="total-businesses">3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Apply Filters Button -->
+                    <button id="apply-filters"
+                        class="w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 shadow-md hover:shadow-lg">
+                        <i class="fas fa-check mr-2"></i>Apply Filters
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <div class="flex-1 space-y-6">
+
+                <!-- Map Container -->
+                <section id="map-section" style="background-color: #f8fafc;" class="rounded-lg shadow-lg p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="text-2xl font-bold" style="color: #1e293b;">
+                            <i class="fas fa-map mr-2 text-green-600"></i>Market Locations
+                        </h2>
+                        <div class="flex space-x-2">
+                            <button style="background-color: #e2e8f0; color: #1e293b;"
+                                class="px-4 py-2 hover:bg-opacity-80 rounded-lg transition duration-200">
+                                <i class="fas fa-expand mr-2"></i>Fullscreen
+                            </button>
+                            <button style="background-color: #e2e8f0; color: #1e293b;"
+                                class="px-4 py-2 hover:bg-opacity-80 rounded-lg transition duration-200">
+                                <i class="fas fa-sync-alt mr-2"></i>Refresh
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Leaflet Map Container -->
+                    <div id="map" class="rounded-lg"></div>
+
+                    <!-- Map Legend -->
+                    <div class="mt-4 flex flex-wrap gap-4 text-sm">
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-blue-500 rounded-full mr-2"></div>
+                            <span style="color: #1e293b;">Commercial Markets</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-green-500 rounded-full mr-2"></div>
+                            <span style="color: #1e293b;">Retail Markets</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-4 h-4 bg-purple-500 rounded-full mr-2"></div>
+                            <span style="color: #1e293b;">Mixed Markets</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Analytics Dashboard -->
+                <section id="analytics-dashboard" class="space-y-6">
+                    <h2 class="text-2xl font-bold" style="color: #f1f5f9;">
+                        <i class="fas fa-chart-line mr-2 text-blue-400"></i>Analytics Dashboard
+                    </h2>
+
+                    <!-- Key Metrics Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <!-- Metric Card 1 -->
+                        <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-sm opacity-90">Total Revenue</p>
+                                    <h3 class="text-3xl font-bold mt-2" id="metric-revenue">PKR 8.5M</h3>
+                                    <p class="text-xs mt-2 opacity-75">
+                                        <i class="fas fa-arrow-up mr-1"></i>12.5% from last month
+                                    </p>
+                                </div>
+                                <i class="fas fa-dollar-sign text-4xl opacity-30"></i>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 2 -->
+                        <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-lg shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-sm opacity-90">Active Businesses</p>
+                                    <h3 class="text-3xl font-bold mt-2" id="metric-businesses">3</h3>
+                                    <p class="text-xs mt-2 opacity-75">
+                                        <i class="fas fa-arrow-up mr-1"></i>100% active rate
+                                    </p>
+                                </div>
+                                <i class="fas fa-building text-4xl opacity-30"></i>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 3 -->
+                        <div
+                            class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-sm opacity-90">Total Employment</p>
+                                    <h3 class="text-3xl font-bold mt-2" id="metric-employment">90</h3>
+                                    <p class="text-xs mt-2 opacity-75">
+                                        <i class="fas fa-arrow-up mr-1"></i>8.3% growth
+                                    </p>
+                                </div>
+                                <i class="fas fa-users text-4xl opacity-30"></i>
+                            </div>
+                        </div>
+
+                        <!-- Metric Card 4 -->
+                        <div
+                            class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg shadow-lg p-6 text-white">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-sm opacity-90">Avg Profit Margin</p>
+                                    <h3 class="text-3xl font-bold mt-2" id="metric-margin">24.5%</h3>
+                                    <p class="text-xs mt-2 opacity-75">
+                                        <i class="fas fa-arrow-up mr-1"></i>3.2% improvement
+                                    </p>
+                                </div>
+                                <i class="fas fa-percentage text-4xl opacity-30"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Section -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <!-- Chart 1 - Revenue by Sector -->
+                        <div style="background-color: #f8fafc;" class="rounded-lg shadow-lg p-6">
+                            <h3 class="text-lg font-bold mb-4" style="color: #1e293b;">
+                                <i class="fas fa-chart-bar mr-2 text-blue-600"></i>Revenue by Sector
+                            </h3>
+                            <div id="chart-revenue-sector" class="min-h-[300px]">
+                                <!-- Chart will be rendered here by ChartHandler -->
+                            </div>
+                        </div>
+
+                        <!-- Chart 2 - Business Distribution -->
+                        <div style="background-color: #f8fafc;" class="rounded-lg shadow-lg p-6">
+                            <h3 class="text-lg font-bold mb-4" style="color: #1e293b;">
+                                <i class="fas fa-chart-pie mr-2 text-green-600"></i>Business Distribution
+                            </h3>
+                            <div id="chart-business-distribution" class="min-h-[300px]">
+                                <!-- Chart will be rendered here when sector selected -->
+                            </div>
+                        </div>
+
+                        <!-- Chart 3 - Growth Trends -->
+                        <div style="background-color: #f8fafc;" class="rounded-lg shadow-lg p-6">
+                            <h3 class="text-lg font-bold mb-4" style="color: #1e293b;">
+                                <i class="fas fa-chart-line mr-2 text-purple-600"></i>Growth Trends
+                            </h3>
+                            <div id="chart-growth-trends" class="min-h-[300px]">
+                                <!-- Chart will be rendered here by ChartHandler -->
+                            </div>
+                        </div>
+
+                        <!-- Chart 4 - Employment Stats -->
+                        <div style="background-color: #f8fafc;" class="rounded-lg shadow-lg p-6">
+                            <h3 class="text-lg font-bold mb-4" style="color: #1e293b;">
+                                <i class="fas fa-chart-area mr-2 text-orange-600"></i>Employment Statistics
+                            </h3>
+                            <div id="chart-employment" class="min-h-[300px]">
+                                <!-- Chart will be rendered here by ChartHandler -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Business List Table -->
+                    <div style="background-color: #f8fafc;" class="rounded-lg shadow-lg p-6">
+                        <h3 class="text-lg font-bold mb-4" style="color: #1e293b;">
+                            <i class="fas fa-list mr-2 text-blue-600"></i>Business Directory
+                        </h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm text-left">
+                                <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
+                                    <tr>
+                                        <th class="px-6 py-3">Business Name</th>
+                                        <th class="px-6 py-3">Sector</th>
+                                        <th class="px-6 py-3">Market</th>
+                                        <th class="px-6 py-3">Revenue</th>
+                                        <th class="px-6 py-3">Employees</th>
+                                        <th class="px-6 py-3">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="business-table-body" class="divide-y divide-gray-200">
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-900">Tech Solutions Pvt Ltd</td>
+                                        <td class="px-6 py-4 text-gray-700">Information Technology</td>
+                                        <td class="px-6 py-4 text-gray-700">Blue Area</td>
+                                        <td class="px-6 py-4 text-gray-700">PKR 5.0M</td>
+                                        <td class="px-6 py-4 text-gray-700">50</td>
+                                        <td class="px-6 py-4">
+                                            <span
+                                                class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Active</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-900">Fashion Hub</td>
+                                        <td class="px-6 py-4 text-gray-700">Retail & Fashion</td>
+                                        <td class="px-6 py-4 text-gray-700">F-7 Markaz</td>
+                                        <td class="px-6 py-4 text-gray-700">PKR 2.0M</td>
+                                        <td class="px-6 py-4 text-gray-700">25</td>
+                                        <td class="px-6 py-4">
+                                            <span
+                                                class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Active</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-900">Café Delight</td>
+                                        <td class="px-6 py-4 text-gray-700">Food & Beverage</td>
+                                        <td class="px-6 py-4 text-gray-700">Jinnah Super Market</td>
+                                        <td class="px-6 py-4 text-gray-700">PKR 1.5M</td>
+                                        <td class="px-6 py-4 text-gray-700">15</td>
+                                        <td class="px-6 py-4">
+                                            <span
+                                                class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Active</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">
+                        <i class="fas fa-info-circle mr-2"></i>About
+                    </h3>
+                    <p class="text-gray-400 text-sm">
+                        Islamabad Market Intelligence Dashboard provides comprehensive analytics and insights
+                        for business sectors across Islamabad's major markets.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">
+                        <i class="fas fa-link mr-2"></i>Quick Links
+                    </h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-200">Dashboard</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-200">Markets</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-200">Analytics</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-200">Reports</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">
+                        <i class="fas fa-envelope mr-2"></i>Contact
+                    </h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Islamabad, Pakistan</li>
+                        <li><i class="fas fa-phone mr-2"></i>+92 XXX XXXXXXX</li>
+                        <li><i class="fas fa-envelope mr-2"></i>info@marketintelligence.pk</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Islamabad Market Intelligence Dashboard. All rights reserved.</p>
+                <p class="mt-2">
+                    <i class="fas fa-code mr-2"></i>Built with
+                    <i class="fas fa-heart text-red-500 mx-1"></i> using OOP Principles
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Custom JavaScript Files (in proper order) -->
+    <!-- Classes first -->
+    <script type="module" src="assets/js/classes/Market.js"></script>
+    <script type="module" src="assets/js/classes/Sector.js"></script>
+    <script type="module" src="assets/js/classes/Business.js"></script>
+    <script type="module" src="assets/js/classes/Analytics.js"></script>
+
+    <!-- Data -->
+    <script type="module" src="assets/js/data/islamabadData.js"></script>
+
+    <!-- Utilities -->
+    <script type="module" src="assets/js/utils/mapHandler.js"></script>
+    <script type="module" src="assets/js/utils/chartHandler.js"></script>
+
+    <!-- Main application -->
+    <script type="module" src="assets/js/main.js"></script>
+
+    <!-- Test suite helpers -->
+    <script type="module" src="tests/test-suite.js"></script>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+        // Sidebar toggle for mobile
+        const sidebarToggle = document.getElementById('sidebar-toggle');
+        const sidebar = document.getElementById('sidebar');
+
+        if (sidebarToggle) {
+            sidebarToggle.addEventListener('click', () => {
+                sidebar.classList.toggle('sidebar-hidden');
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+[
+  {
+    "id": "f-6",
+    "name": "F-6",
+    "coordinates": {
+      "lat": 33.7294,
+      "lng": 73.0551
+    },
+    "population": 18000,
+    "accessibility": 9,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "f-7",
+    "name": "F-7",
+    "coordinates": {
+      "lat": 33.7215,
+      "lng": 73.0433
+    },
+    "population": 15000,
+    "accessibility": 9,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "f-8",
+    "name": "F-8",
+    "coordinates": {
+      "lat": 33.7069,
+      "lng": 73.0535
+    },
+    "population": 22000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "f-10",
+    "name": "F-10",
+    "coordinates": {
+      "lat": 33.6969,
+      "lng": 73.0162
+    },
+    "population": 25000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "f-11",
+    "name": "F-11",
+    "coordinates": {
+      "lat": 33.6733,
+      "lng": 73.0383
+    },
+    "population": 28000,
+    "accessibility": 7,
+    "type": "residential"
+  },
+  {
+    "id": "g-6",
+    "name": "G-6",
+    "coordinates": {
+      "lat": 33.7186,
+      "lng": 73.0658
+    },
+    "population": 20000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "g-7",
+    "name": "G-7",
+    "coordinates": {
+      "lat": 33.7108,
+      "lng": 73.0551
+    },
+    "population": 19000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "g-8",
+    "name": "G-8",
+    "coordinates": {
+      "lat": 33.6969,
+      "lng": 73.0658
+    },
+    "population": 24000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "g-9",
+    "name": "G-9",
+    "coordinates": {
+      "lat": 33.6858,
+      "lng": 73.0383
+    },
+    "population": 26000,
+    "accessibility": 7,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "g-10",
+    "name": "G-10",
+    "coordinates": {
+      "lat": 33.6733,
+      "lng": 73.0658
+    },
+    "population": 30000,
+    "accessibility": 7,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "g-11",
+    "name": "G-11",
+    "coordinates": {
+      "lat": 33.6608,
+      "lng": 73.0383
+    },
+    "population": 32000,
+    "accessibility": 7,
+    "type": "residential"
+  },
+  {
+    "id": "g-13",
+    "name": "G-13",
+    "coordinates": {
+      "lat": 33.6358,
+      "lng": 73.0383
+    },
+    "population": 28000,
+    "accessibility": 6,
+    "type": "residential"
+  },
+  {
+    "id": "i-8",
+    "name": "I-8",
+    "coordinates": {
+      "lat": 33.6658,
+      "lng": 73.0765
+    },
+    "population": 35000,
+    "accessibility": 7,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "i-9",
+    "name": "I-9",
+    "coordinates": {
+      "lat": 33.6533,
+      "lng": 73.0658
+    },
+    "population": 38000,
+    "accessibility": 6,
+    "type": "residential"
+  },
+  {
+    "id": "i-10",
+    "name": "I-10",
+    "coordinates": {
+      "lat": 33.6408,
+      "lng": 73.0765
+    },
+    "population": 40000,
+    "accessibility": 6,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "i-11",
+    "name": "I-11",
+    "coordinates": {
+      "lat": 33.6283,
+      "lng": 73.0658
+    },
+    "population": 35000,
+    "accessibility": 5,
+    "type": "residential"
+  },
+  {
+    "id": "i-14",
+    "name": "I-14",
+    "coordinates": {
+      "lat": 33.6033,
+      "lng": 73.0658
+    },
+    "population": 30000,
+    "accessibility": 5,
+    "type": "residential"
+  },
+  {
+    "id": "e-7",
+    "name": "E-7",
+    "coordinates": {
+      "lat": 33.7108,
+      "lng": 73.0872
+    },
+    "population": 16000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "e-11",
+    "name": "E-11",
+    "coordinates": {
+      "lat": 33.6608,
+      "lng": 73.0872
+    },
+    "population": 25000,
+    "accessibility": 6,
+    "type": "residential"
+  },
+  {
+    "id": "blue-area",
+    "name": "Blue Area",
+    "coordinates": {
+      "lat": 33.7077,
+      "lng": 73.0478
+    },
+    "population": 5000,
+    "accessibility": 10,
+    "type": "commercial"
+  },
+  {
+    "id": "jinnah-super",
+    "name": "Jinnah Super",
+    "coordinates": {
+      "lat": 33.7294,
+      "lng": 73.0931
+    },
+    "population": 8000,
+    "accessibility": 9,
+    "type": "commercial"
+  },
+  {
+    "id": "aabpara",
+    "name": "Aabpara Market",
+    "coordinates": {
+      "lat": 33.7186,
+      "lng": 73.0765
+    },
+    "population": 6000,
+    "accessibility": 9,
+    "type": "commercial"
+  },
+  {
+    "id": "saddar",
+    "name": "Saddar",
+    "coordinates": {
+      "lat": 33.7294,
+      "lng": 73.0658
+    },
+    "population": 10000,
+    "accessibility": 8,
+    "type": "commercial"
+  },
+  {
+    "id": "karachi-company",
+    "name": "Karachi Company",
+    "coordinates": {
+      "lat": 33.7358,
+      "lng": 73.0658
+    },
+    "population": 7000,
+    "accessibility": 8,
+    "type": "commercial"
+  },
+  {
+    "id": "bahria-phase4",
+    "name": "Bahria Town Phase 4",
+    "coordinates": {
+      "lat": 33.5283,
+      "lng": 73.1158
+    },
+    "population": 45000,
+    "accessibility": 7,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "bahria-phase7",
+    "name": "Bahria Town Phase 7",
+    "coordinates": {
+      "lat": 33.5158,
+      "lng": 73.1058
+    },
+    "population": 50000,
+    "accessibility": 7,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "dha-phase1",
+    "name": "DHA Phase 1",
+    "coordinates": {
+      "lat": 33.5533,
+      "lng": 73.1458
+    },
+    "population": 35000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "dha-phase2",
+    "name": "DHA Phase 2",
+    "coordinates": {
+      "lat": 33.5408,
+      "lng": 73.1358
+    },
+    "population": 40000,
+    "accessibility": 8,
+    "type": "residential-commercial"
+  },
+  {
+    "id": "centaurus",
+    "name": "Centaurus",
+    "coordinates": {
+      "lat": 33.7108,
+      "lng": 73.0478
+    },
+    "population": 3000,
+    "accessibility": 10,
+    "type": "commercial"
+  }
+]
